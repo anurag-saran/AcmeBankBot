@@ -1,13 +1,9 @@
 {
-  "name": "welcomeBot",
-  "version": "0.0.1",
-  "description": "Simple Testing Node server",
-  "main": "app.js",
-  "author": "Anurag Saran",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.x.x",
-    "body-parser": "^1.x.x",
-    "request": "2.56.x"
-  }
+    "dependencies": {
+        "express": "^4.14.1"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "main": "app.js"
 }
